@@ -1,0 +1,32 @@
+.header {
+   display: grid;
+   grid-template-columns: auto auto 1fr;
+   align-items: end;
+   padding: 1.5rem 0;
+}
+
+.header__title {
+   font-size: 1.2rem;
+   font-weight: 800;
+   margin-right: 0.5rem;
+   color: var(--very-dark-blue);
+}
+
+.header__count {
+   background-color: var(--blue);
+   color: var(--white);
+   padding: 0.25rem 0.65rem;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+.header__button {
+   margin-left: 1rem;
+   justify-self: end;
+   color: var(--dark-grey);
+   cursor: pointer;
+}
+
+.header__button:hover {
+   color: var(--blue);
+}

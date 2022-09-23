@@ -1,0 +1,33 @@
+:root {
+  --white: #ffffff;
+  --very-light-grey: #f7fafd;
+  --light-grey: #e5effa;
+  --light-grey-2: #dde7ee;
+  --grey: #939dae;
+  --dark-grey: #5e6778;
+  --very-dark-blue: #1c202b;
+  --red: #f65351;
+  --blue: #0a317b;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  background-color: var(--very-light-grey);
+  font-size: 0.9rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+  background-color: var(--white);
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 4rem auto;
+    border-radius: 15px;
+  }
+}
+
